@@ -54,3 +54,9 @@ python np_plot.py
 
 To tune the hyper parameters. this file will also run a simulation but doesn't report execution time and robot cell divison. 
 python GD_voronoi.py
+
+Here is the video implemenmtation of tge algorithm 
+
+
+https://user-images.githubusercontent.com/87424679/215304472-3284e983-49c6-4548-a3d0-62f03ba6a675.mp4
+
