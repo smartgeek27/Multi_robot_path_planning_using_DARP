@@ -1,13 +1,15 @@
-# Rishi Dadhich, 1222538785
+
 # DARP: Divide Areas Algorithm for Optimal Multi-Robot Coverage Path Planning
 
-## Motivation
+# Motivation
 
 In order to cover a region of interest with previously identified obstacles, this project works with the path planning problem for a group of mobile robots. The DARP algorithm divides the territory into a number of equal regions, each corresponding to a particular robot, in order to ensure total coverage, a non-backtracking solution, and a minimal coverage path while requiring no prior planning. 
 
-## Requirements
-# run this command pip install -r requirements.txt 
-# after going inside the directory. 
+# Requirements
+run this command
+'pip install -r requirements.txt' 
+after going inside the directory.
+
 # To setup the environment install requirements.text file beforehand.
 numpy==1.20
 opencv-python==4.5.4.60
@@ -23,10 +25,9 @@ Python 3.6
 PyQt
 
 
-#### To run the code, use:
+# To run the code, use:
 
-# run this command for the simulation DARP-STM
-# for 2 robots
+# run this command for the simulation DARP-STM for 2 robots
 ```
 python PathPlanner.py -vis -nep -obs_pos 507 479 451 423 395 367 339 311 283 255 227 199 172 173 202 230 258 286 314 342 370 398 426 454 482 510 486 515 516 489 461 433 405 377 349 348 347 346 318 290 262 234 206 179 180 209 185 213 241 269 297 325 353 381 409 437 465 493 522 523 524 497 469 441 413 385 357 329 301 273 245 217 189  -in_pos 177 487 -portions 0.51 0.49
 ```
